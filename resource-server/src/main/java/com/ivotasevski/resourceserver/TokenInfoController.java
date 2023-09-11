@@ -11,7 +11,7 @@ import java.util.Map;
 
 @Slf4j
 @RestController
-public class HelloController {
+public class TokenInfoController {
 
     @GetMapping("/token-info")
     public Map<String, Object> get() {
